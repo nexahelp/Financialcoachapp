@@ -8,8 +8,8 @@ import { RefreshCw, User, LogOut, Aperture, DollarSign, BarChart2, CheckCircle, 
 // 1. CONFIGURACIÓN DE SUPABASE (¡IMPORTANTE!)
 //    REEMPLAZA ESTOS VALORES CON LOS REALES DE TU PROYECTO SUPABASE
 // =======================================================
-const SUPABASE_URL = ''; 
-const SUPABASE_ANON_KEY = ''; 
+const SUPABASE_URL = 'https://xhpkovudinbqrbdvuzrb.supabase.co'; 
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhocGtvdnVkaW5icXJiZHZ1enJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA3ODkxOTQsImV4cCI6MjA3NjM2NTE5NH0.J1Ad1N8fWShrNvvB6VCE6jzBoeB7gW2VO4P3N48hQUQ'; 
 
 // Inicialización del cliente (Usamos un Mock para la ejecución en este entorno)
 // En un proyecto real, usarías: const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
